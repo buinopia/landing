@@ -1,0 +1,12 @@
+var y = 0;
+console.log(y);
+
+function Click() {
+    var num;
+    y += 1;
+    num = document.getElementById('num').value;
+    num = parseInt(num3);
+    document.getElementById('num3').innerHTML = y; // for html file
+}
+
+Added value in variable "y"
